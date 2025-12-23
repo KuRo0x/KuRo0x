@@ -1,4 +1,4 @@
-## 👋 Hi, I'm Walid (KuRo / KuRo0x)
+## 👋 Hi, I'm Walid (KuRo)
 
 🎯 Aspiring Cybersecurity Analyst  
 🛡️ Focused on SOC, SIEM, and Blue Team operations  
