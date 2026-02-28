@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-# Walid Ait Zaouit | KuRo
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0b1220,100:0ea5e9&text=Walid%20Ait%20Zaouit%20|%20KuRo&fontColor=ffffff&fontSize=34&animation=fadeIn" alt="header" />
 
 ### Junior SOC Analyst | Security Monitoring | Detection Engineering | Incident Response
 
@@ -16,21 +16,77 @@ Morocco (UTC+0/UTC+1) | Open to Remote Roles
 
 ---
 
-## Professional Summary
+## About Me
 
-SOC-focused cybersecurity analyst with hands-on lab experience in SIEM monitoring, alert triage, Windows Event Log and Sysmon analysis, phishing investigation, and Sigma-based detection development. Built and maintained a virtual SOC environment in Splunk to validate detection logic, investigate suspicious activity, and produce investigation notes suitable for analyst handoff.
+<table>
+<tr>
+<td width="62%">
+
+Cybersecurity analyst focused on SOC operations, detection quality, and investigation discipline.
+
+I build and test detections in a virtual SOC environment, validate alerts against endpoint telemetry, and document incidents in an escalation-ready format. My work emphasizes evidence-driven triage, ATT&CK-aligned analysis, and continuous tuning to reduce false positives.
+
+</td>
+<td width="38%">
+
+- Remote-ready collaboration
+- Investigation-first workflow
+- Detection and triage mindset
+- Strong technical documentation
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Core Technical Capabilities
+## Tech Stack
 
-- SIEM monitoring, alert triage, and incident queue prioritization
-- Windows Event Log and Sysmon telemetry analysis
-- IOC extraction, enrichment, and validation workflows
-- Phishing analysis and email header investigation
-- Sigma rule analysis/writing and false-positive reduction
-- MITRE ATT&CK mapping and detection gap tracking
-- Incident documentation and response recommendations
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=py,powershell,bash,git,github,linux,windows" alt="core stack icons" />
+
+</div>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Splunk-SIEM-black?style=for-the-badge&logo=splunk&logoColor=white" alt="Splunk" />
+  <img src="https://img.shields.io/badge/Sysmon-Endpoint%20Telemetry-1f2937?style=for-the-badge&logo=windows&logoColor=white" alt="Sysmon" />
+  <img src="https://img.shields.io/badge/Wireshark-Network%20Analysis-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
+  <img src="https://img.shields.io/badge/pfSense-Firewall%20Lab-212121?style=for-the-badge&logo=pfsense&logoColor=white" alt="pfSense" />
+  <img src="https://img.shields.io/badge/Sigma-Detection%20Rules-6b21a8?style=for-the-badge&logo=simpleicons&logoColor=white" alt="Sigma" />
+</p>
+
+---
+
+## Languages
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-Analysis%20%26%20Automation-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PowerShell-Windows%20Investigation-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/Bash-Lab%20Operations-121011?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/SPL-Splunk%20Query%20Language-f97316?style=for-the-badge" alt="SPL" />
+</p>
+
+---
+
+## Tools and Platforms
+
+- SIEM: Splunk
+- Endpoint telemetry: Windows Event Logs, Sysmon
+- Detection engineering: Sigma, ATT&CK mapping
+- Network security lab: pfSense
+- Version control and collaboration: Git, GitHub
+
+---
+
+## Investigation Workflow
+
+1. Validate alert context and initial severity.
+2. Correlate host, user, process, and time-based telemetry.
+3. Extract and validate IOCs from observed activity.
+4. Map behaviors to MITRE ATT&CK techniques.
+5. Determine scope, likely root cause, and containment actions.
+6. Document findings and escalation-ready recommendations.
 
 ---
 
