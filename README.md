@@ -1,5 +1,7 @@
 ﻿<div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&height=150&color=0:0f172a,100:1e293b&text=Security%20Operations%20%7C%20Detection%20Engineering%20%7C%20Incident%20Response&fontColor=e5e7eb&fontSize=26&animation=fadeIn" alt="soc banner" />
+
 # Walid Ait Zaouit | KuRo
 
 ### Junior SOC Analyst | Security Monitoring | Detection Engineering | Incident Response
@@ -18,14 +20,14 @@ Morocco (UTC+0/UTC+1) | Open to Remote Roles
 
 ## About Me
 
-SOC-focused cybersecurity analyst with hands-on lab execution in security monitoring, alert triage, and endpoint investigation.
+SOC-focused cybersecurity analyst with hands-on experience building and operating a Splunk-based lab environment for security monitoring, alert triage, and endpoint investigation.
 
-I work from telemetry to decision: validate alert context, correlate host and user activity, investigate suspicious behaviors, and document findings in a format ready for SOC escalation. My focus is operational quality, detection logic discipline, and consistent investigation depth.
+I work from telemetry to decision: validating alert context, correlating Windows and Sysmon logs, identifying suspicious execution and persistence behaviors, and documenting findings in escalation-ready format. My approach emphasizes detection logic discipline, evidence-based analysis, and consistent investigation depth.
 
-- Build SIEM-driven workflows for structured triage and case handling
-- Investigate Windows and Sysmon telemetry with evidence-first methodology
-- Translate suspicious activity into clear technical findings and response notes
-- Collaborate effectively in remote environments with strong documentation standards
+- Design and test SIEM-driven triage workflows
+- Investigate Windows endpoint telemetry using structured methodology
+- Develop and validate Sigma detection logic aligned to MITRE ATT&CK
+- Produce clear, technical case documentation suitable for remote SOC environments
 
 ---
 
