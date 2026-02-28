@@ -54,19 +54,6 @@ I am a SOC-focused cybersecurity analyst building practical, evidence-driven wor
 
 ---
 
-## Featured Repositories
-
-<div align="center">
-  <a href="https://github.com/KuRo0x/vSOC-Lab">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=KuRo0x&repo=vSOC-Lab&theme=tokyonight&hide_border=true" alt="vSOC-Lab" />
-  </a>
-  <a href="https://github.com/KuRo0x/Net-Mapper">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=KuRo0x&repo=Net-Mapper&theme=tokyonight&hide_border=true" alt="Net-Mapper" />
-  </a>
-</div>
-
----
-
 ## Certifications
 
 - Google Cybersecurity Certificate (Coursera)
@@ -76,18 +63,9 @@ I am a SOC-focused cybersecurity analyst building practical, evidence-driven wor
 
 ## GitHub Analytics
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KuRo0x&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="165" alt="GitHub stats" />
-  <img src="https://streak-stats.demolab.com?user=KuRo0x&theme=tokyonight&hide_border=true" height="165" alt="GitHub streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KuRo0x&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Top languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=KuRo0x&theme=tokyo-night&hide_border=true" width="95%" alt="Activity graph" />
-</div>
+- Profile: [github.com/KuRo0x](https://github.com/KuRo0x)
+- Repositories: [github.com/KuRo0x?tab=repositories](https://github.com/KuRo0x?tab=repositories)
+- Contribution Calendar: [github.com/KuRo0x](https://github.com/KuRo0x)
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=KuRo0x&style=flat-square&color=0ea5e9" alt="Profile views" />
