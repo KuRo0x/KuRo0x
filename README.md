@@ -18,12 +18,14 @@ Morocco (UTC+0/UTC+1) | Open to Remote Roles
 
 ## About Me
 
-I am a SOC-focused cybersecurity analyst building practical, evidence-driven workflows for monitoring, triage, and incident investigation.
+SOC-focused cybersecurity analyst with hands-on lab execution in security monitoring, alert triage, and endpoint investigation.
 
-- Operate SIEM-centric lab workflows with a detection-first mindset
-- Analyze Windows telemetry and suspicious behavior patterns
-- Produce clear technical investigation notes and escalation-ready findings
-- Work effectively in remote collaboration environments
+I work from telemetry to decision: validate alert context, correlate host and user activity, investigate suspicious behaviors, and document findings in a format ready for SOC escalation. My focus is operational quality, detection logic discipline, and consistent investigation depth.
+
+- Build SIEM-driven workflows for structured triage and case handling
+- Investigate Windows and Sysmon telemetry with evidence-first methodology
+- Translate suspicious activity into clear technical findings and response notes
+- Collaborate effectively in remote environments with strong documentation standards
 
 ---
 
