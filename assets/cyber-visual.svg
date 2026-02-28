@@ -35,7 +35,6 @@
 
   <rect width="1200" height="260" fill="#000000"/>
 
-  <!-- Left hand -->
   <g transform="translate(0 0)">
     <path class="dot" d="M8 132 C55 74, 140 46, 232 64 C282 74, 315 95, 350 116"/>
     <path class="dot-dim" d="M8 154 C64 99, 150 75, 238 88 C285 96, 322 115, 362 140"/>
@@ -46,7 +45,6 @@
     <path class="dot-dim" d="M130 194 C154 170, 185 156, 220 154 C248 153, 272 159, 296 173"/>
   </g>
 
-  <!-- Right hand -->
   <g transform="translate(1200 0) scale(-1 1)">
     <path class="dot" d="M8 132 C55 74, 140 46, 232 64 C282 74, 315 95, 350 116"/>
     <path class="dot-dim" d="M8 154 C64 99, 150 75, 238 88 C285 96, 322 115, 362 140"/>
@@ -57,20 +55,13 @@
     <path class="dot-dim" d="M130 194 C154 170, 185 156, 220 154 C248 153, 272 159, 296 173"/>
   </g>
 
-  <!-- Connection pulse -->
   <line x1="390" y1="132" x2="810" y2="132" stroke="#9ca3af" stroke-width="1" opacity="0.2" stroke-dasharray="3 10"/>
-  <circle cx="420" cy="132" r="2.8" fill="#e5e7eb">
-    <animate attributeName="cx" values="420;780;420" dur="3.2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.1;1;0.1" dur="3.2s" repeatCount="indefinite"/>
-  </circle>
 
-  <!-- Folder object -->
   <g transform="translate(600 126)">
     <g filter="url(#glow)">
       <rect x="-28" y="-16" width="56" height="34" rx="6" fill="url(#folderGrad)"/>
       <rect x="-20" y="-22" width="24" height="10" rx="3" fill="#7dd3fc"/>
     </g>
     <text x="0" y="36" text-anchor="middle" fill="#e5e7eb" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">projects</text>
-    <animateTransform attributeName="transform" type="translate" values="600 126;600 121;600 126" dur="2.5s" repeatCount="indefinite"/>
   </g>
 </svg>
