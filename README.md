@@ -1,7 +1,5 @@
 ﻿<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=150&color=0:0f172a,100:1e293b&text=Security%20Operations%20%7C%20Detection%20Engineering%20%7C%20Incident%20Response&fontColor=e5e7eb&fontSize=26&animation=fadeIn" alt="soc banner" />
-
 # Walid Ait Zaouit | KuRo
 
 ### Junior SOC Analyst | Security Monitoring | Detection Engineering | Incident Response
