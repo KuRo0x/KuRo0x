@@ -27,6 +27,10 @@ I work from telemetry to decision: validating alert context, correlating Windows
 - Develop and validate Sigma detection logic aligned to MITRE ATT&CK
 - Produce clear, technical case documentation suitable for remote SOC environments
 
+<p align="right">
+  <img src="./assets/about-photo.jpg" width="120" alt="Cyber profile visual" />
+</p>
+
 ---
 
 ## Tech Stack
