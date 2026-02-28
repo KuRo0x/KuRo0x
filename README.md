@@ -18,11 +18,6 @@ Morocco (UTC+0/UTC+1) | Open to Remote Roles
 
 ## About Me
 
-```bash
-$ soc-eye --mode monitor --theme cybersecurity
-[◉] telemetry -> triage -> correlation -> detection -> response
-```
-
 SOC-focused cybersecurity analyst with hands-on experience building and operating a Splunk-based lab environment for security monitoring, alert triage, and endpoint investigation.
 
 I work from telemetry to decision: validating alert context, correlating Windows and Sysmon logs, identifying suspicious execution and persistence behaviors, and documenting findings in escalation-ready format. My approach emphasizes detection logic discipline, evidence-based analysis, and consistent investigation depth.
