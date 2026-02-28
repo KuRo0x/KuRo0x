@@ -1,20 +1,11 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-label="Cybersecurity hero visualization">
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-label="Cyber handoff visualization">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#060b16"/>
-      <stop offset="1" stop-color="#0d1a2f"/>
+    <linearGradient id="folderGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#5ec8ff"/>
+      <stop offset="1" stop-color="#1b82b8"/>
     </linearGradient>
 
-    <radialGradient id="vignette" cx="50%" cy="50%" r="65%">
-      <stop offset="0" stop-color="#1d4ed8" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0"/>
-    </radialGradient>
-
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0 L0 0 0 28" fill="none" stroke="#1f3354" stroke-width="1"/>
-    </pattern>
-
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
       <feGaussianBlur stdDeviation="2" result="b"/>
       <feMerge>
         <feMergeNode in="b"/>
@@ -22,52 +13,64 @@
       </feMerge>
     </filter>
 
-    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#7dd3fc" stop-opacity="0.65"/>
-      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
-    </linearGradient>
+    <style>
+      .dot {
+        fill: none;
+        stroke: #f3f4f6;
+        stroke-width: 7.5;
+        stroke-linecap: round;
+        stroke-dasharray: 0.01 11;
+        opacity: 0.95;
+      }
+      .dot-dim {
+        fill: none;
+        stroke: #d1d5db;
+        stroke-width: 6.5;
+        stroke-linecap: round;
+        stroke-dasharray: 0.01 12;
+        opacity: 0.55;
+      }
+    </style>
   </defs>
 
-  <rect width="1200" height="260" fill="url(#bg)"/>
-  <rect width="1200" height="260" fill="url(#grid)" opacity="0.6"/>
-  <rect width="1200" height="260" fill="url(#vignette)"/>
+  <rect width="1200" height="260" fill="#000000"/>
 
-  <g opacity="0.28" stroke="#60a5fa" stroke-width="1.2" fill="none">
-    <path d="M0,195 C140,130 260,220 390,170 C520,120 660,205 790,155 C930,100 1060,165 1200,125"/>
-    <path d="M0,225 C150,170 260,235 395,200 C530,165 670,225 805,190 C940,150 1070,205 1200,175"/>
+  <!-- Left hand -->
+  <g transform="translate(0 0)">
+    <path class="dot" d="M8 132 C55 74, 140 46, 232 64 C282 74, 315 95, 350 116"/>
+    <path class="dot-dim" d="M8 154 C64 99, 150 75, 238 88 C285 96, 322 115, 362 140"/>
+    <path class="dot" d="M8 178 C72 125, 160 106, 248 117 C296 123, 334 139, 376 160"/>
+    <path class="dot-dim" d="M8 200 C81 150, 170 134, 258 144 C304 149, 342 163, 390 182"/>
+
+    <path class="dot" d="M96 175 C112 151, 140 132, 176 124 C205 118, 230 119, 256 128"/>
+    <path class="dot-dim" d="M130 194 C154 170, 185 156, 220 154 C248 153, 272 159, 296 173"/>
   </g>
 
-  <g transform="translate(600 130)">
-    <circle r="52" fill="none" stroke="#60a5fa" stroke-width="1.8" opacity="0.55"/>
-    <circle r="36" fill="none" stroke="#93c5fd" stroke-width="2" opacity="0.9"/>
+  <!-- Right hand -->
+  <g transform="translate(1200 0) scale(-1 1)">
+    <path class="dot" d="M8 132 C55 74, 140 46, 232 64 C282 74, 315 95, 350 116"/>
+    <path class="dot-dim" d="M8 154 C64 99, 150 75, 238 88 C285 96, 322 115, 362 140"/>
+    <path class="dot" d="M8 178 C72 125, 160 106, 248 117 C296 123, 334 139, 376 160"/>
+    <path class="dot-dim" d="M8 200 C81 150, 170 134, 258 144 C304 149, 342 163, 390 182"/>
 
-    <path d="M-8,-12 L8,-12 L14,-2 L14,12 C14,24 4,34 0,37 C-4,34 -14,24 -14,12 L-14,-2 Z"
-      fill="none" stroke="#e2e8f0" stroke-width="2.2" filter="url(#glow)"/>
-
-    <circle r="66" fill="none" stroke="#38bdf8" opacity="0.2">
-      <animate attributeName="r" values="62;74;62" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.24;0.06;0.24" dur="5s" repeatCount="indefinite"/>
-    </circle>
+    <path class="dot" d="M96 175 C112 151, 140 132, 176 124 C205 118, 230 119, 256 128"/>
+    <path class="dot-dim" d="M130 194 C154 170, 185 156, 220 154 C248 153, 272 159, 296 173"/>
   </g>
 
-  <g fill="#93c5fd" opacity="0.95">
-    <circle cx="170" cy="90" r="3.5"/>
-    <circle cx="275" cy="176" r="3.5"/>
-    <circle cx="420" cy="78" r="3.5"/>
-    <circle cx="785" cy="80" r="3.5"/>
-    <circle cx="930" cy="178" r="3.5"/>
-    <circle cx="1050" cy="98" r="3.5"/>
-  </g>
+  <!-- Connection pulse -->
+  <line x1="390" y1="132" x2="810" y2="132" stroke="#9ca3af" stroke-width="1" opacity="0.2" stroke-dasharray="3 10"/>
+  <circle cx="420" cy="132" r="2.8" fill="#e5e7eb">
+    <animate attributeName="cx" values="420;780;420" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.1;1;0.1" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
 
-  <g stroke="#60a5fa" stroke-width="1.4" opacity="0.7">
-    <path d="M170 90 L600 130 L420 78"/>
-    <path d="M275 176 L600 130 L420 78"/>
-    <path d="M785 80 L600 130 L1050 98"/>
-    <path d="M930 178 L600 130 L1050 98"/>
+  <!-- Folder object -->
+  <g transform="translate(600 126)">
+    <g filter="url(#glow)">
+      <rect x="-28" y="-16" width="56" height="34" rx="6" fill="url(#folderGrad)"/>
+      <rect x="-20" y="-22" width="24" height="10" rx="3" fill="#7dd3fc"/>
+    </g>
+    <text x="0" y="36" text-anchor="middle" fill="#e5e7eb" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">projects</text>
+    <animateTransform attributeName="transform" type="translate" values="600 126;600 121;600 126" dur="2.5s" repeatCount="indefinite"/>
   </g>
-
-  <rect x="-320" y="0" width="320" height="260" fill="url(#scan)">
-    <animate attributeName="x" values="-320;1200" dur="4.5s" repeatCount="indefinite"/>
-  </rect>
 </svg>
