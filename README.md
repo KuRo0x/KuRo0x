@@ -10,7 +10,7 @@ Morocco (UTC+0/UTC+1) | Open to Remote Roles
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Walid_Ait_Zaouit-374151?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/walid-ait-zaouit-299407271/)
 [![GitHub](https://img.shields.io/badge/GitHub-KuRo0x-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KuRo0x)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=SOC+Monitoring+and+Alert+Triage;Windows+Telemetry+Investigation;Detection+Engineering+Mindset;Incident+Response+Documentation&center=true&width=900&height=45&color=ffffff&vCenter=true&pause=900&size=22)](https://git.io/typing-svg)
+<img src="./assets/cyber-visual.svg" width="100%" alt="Animated cybersecurity visualization" />
 
 </div>
 
