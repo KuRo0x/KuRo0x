@@ -87,19 +87,6 @@ I work from telemetry to decision: correlating Windows Event Logs and Sysmon dat
 
 ---
 
-## Specialisations
-
-| Area | Details |
-|---|---|
-| **Detection Engineering** | Sigma rules, SPL queries, KQL, ATT&CK TTP mapping |
-| **Threat Hunting** | Log-based hunt missions, hypothesis-driven analysis |
-| **Incident Response** | Alert triage, investigation, escalation documentation |
-| **Malware Analysis** | Static/dynamic analysis in isolated lab environment |
-| **Digital Forensics** | Windows artifact analysis, memory and disk forensics |
-| **Log Analysis** | Windows Event Logs, Sysmon, Winlogbeat, Filebeat |
-
----
-
 ## Certifications
 
 - **Google Cybersecurity Professional Certificate** (Coursera)
